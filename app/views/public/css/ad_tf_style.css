@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  min-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+/* Estilos para el pie de página */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  text-align: center;
+  padding: 10px 0;
+} /* Estilos para el encabezado */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  padding: 10px 0;
+}
+.btn{
+  border: 1px solid #ddd; 
+  border-radius: 50px;
+  padding: 8px; 
+  margin: 2px;
+}
+.table-container {
+  border: 1px solid #ddd; 
+  overflow: auto; 
+  max-height: 700px; 
+  min-width: 90vw; 
+  margin: 5px; 
+  border-radius: 10px;
+}
+.table th, .table td {
+  padding: 15px; 
+  text-align: center;
+} 
+.container{
+  margin-top: 10px;
+  min-width: 90vw;
+}
+.table {
+  border-collapse: collapse; 
+}
+.table thead th {
+  background-color: transparent; 
+  font-size: 16px; 
+  color: rgb(151, 149, 149); 
+}
+.estado-activo {
+  border: 1px ; 
+  border-radius: 50px;
+  color: white;
+  padding: 8px;
+  background: rgb(121, 185, 121);
+}
+.estado-validacion {
+  border: 1px ; 
+  border-radius: 50px;
+  color: white;
+  padding: 8px;
+  background: rgb(214, 211, 36);
+}
+.estado-inactivo {
+  border: 1px ; 
+  border-radius: 50px;
+  color: white;
+  padding: 8px;
+  background: rgb(226, 131, 131);
+}
+.estado-sin-contactos{
+  border: 1px ; 
+  border-radius: 50px;
+  color: white;
+  padding: 8px;
+  background: rgb(230, 158, 51);
+}
+.estado-expirado{
+  border: 1px ; 
+  border-radius: 50px;
+  color: white;
+  padding: 8px;
+  background: rgb(88, 136, 190);
+}
+.small-input {
+  width: 155px; /* Ajusta este valor según tus necesidades */
+}
